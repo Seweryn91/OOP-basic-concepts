@@ -3,10 +3,9 @@ package animals;
 import animals.abstractions.Bird;
 import animals.interfaces.Fly;
 
-public class Ara extends Bird implements Fly
-{
+public class Ara extends Bird implements Fly {
     @Override
-    void peck() {
+    public void peck() {
         System.out.println(getClass().getSimpleName() + " can peck painfully");
     }
 
