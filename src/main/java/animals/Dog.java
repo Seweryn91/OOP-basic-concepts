@@ -13,6 +13,7 @@ public class Dog extends Mammal implements Swim {
         super.drinkMilk();
     }
 
+    @Override
     public void eat() {
         System.out.println("Cromch, cromch! Om nom nom!");
     }
