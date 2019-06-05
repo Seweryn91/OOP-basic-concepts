@@ -6,7 +6,13 @@ public abstract class Animal {
     private int weight;
 
     protected abstract void eat();
-    protected abstract void drink();
-    protected abstract void defecate();
     protected abstract void makeSound();
+
+    protected void drink() {
+        System.out.println("Slurp!");
+    }
+    
+    protected void defecate() {
+        System.out.println("Plop!");
+    }
 }
