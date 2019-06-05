@@ -11,7 +11,7 @@ public abstract class Animal {
     protected void drink() {
         System.out.println("Slurp!");
     }
-    
+
     protected void defecate() {
         System.out.println("Plop!");
     }
