@@ -1,6 +1,9 @@
 package animals;
 
-public class Dog extends Mammal implements Swim{
+import animals.abstractions.Mammal;
+import animals.interfaces.Swim;
+
+public class Dog extends Mammal implements Swim {
 
     private String name;
     private int weight;
