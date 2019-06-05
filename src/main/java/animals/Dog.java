@@ -24,6 +24,6 @@ public class Dog extends Mammal implements Swim {
 
     @Override
     public void swim() {
-        System.out.println("This animal can swim");
+        System.out.println(getClass().getSimpleName() +" likes to swim");
     }
 }
