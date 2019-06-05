@@ -1,6 +1,6 @@
 package animals;
 
-public class Dog extends Mammal {
+public class Dog extends Mammal implements Swim{
 
     private String name;
     private int weight;
@@ -19,5 +19,8 @@ public class Dog extends Mammal {
         System.out.println("Bark!");
     }
 
-
+    @Override
+    public void swim() {
+        System.out.println("This animal can swim");
+    }
 }
