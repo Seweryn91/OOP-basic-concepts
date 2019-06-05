@@ -2,5 +2,6 @@ package animals.abstractions;
 
 public abstract class Bird extends Animal {
 
-    abstract void peck();
+    public boolean isOviparous = true;
+    public abstract void peck();
 }
