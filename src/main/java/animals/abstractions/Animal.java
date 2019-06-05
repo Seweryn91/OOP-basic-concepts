@@ -3,7 +3,7 @@ package animals.abstractions;
 public abstract class Animal {
 
     private String name = "";
-    private int weight = 0;
+    private float weight = 0;
 
     public abstract void eat();
     public abstract void makeSound();
@@ -24,7 +24,7 @@ public abstract class Animal {
         this.name = name;
     }
 
-    public int getWeight() {
+    public float getWeight() {
         return weight;
     }
 
